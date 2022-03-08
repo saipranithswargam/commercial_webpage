@@ -1,0 +1,148 @@
+body{
+    font-family: "Montserrat";
+}
+h1 {   color: antiquewhite;
+       font-size: 3.5rem;  
+       line-height: 1.5;  
+       font-weight: 900;
+    }
+h3{
+    font-weight: bold;
+}
+h2{
+    font-weight:bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+p{
+    color: #8f8f8f;
+}
+.container-fluid{
+    padding: 3% 15%;
+    background-color: #ff4c68;
+}
+#title{
+    background-color: #ff4c68;
+}
+/* navbar */
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.navbar-brand{
+ font-family: 'Ubuntu';
+ font-size: 2.5rem;
+ font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+/* download button */
+.download-button{
+    margin: 5% 3% 5% 0;
+
+}
+/* title image */
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: relative;
+    top: 2%;
+    left: 25%;
+
+    /*is used to rotate things in webpage and if we use angle in negative direction it will rotate in 
+    anti clock direction
+    this rotate thing is a function we will learn in js*/
+}
+/* features */
+#features{
+    /* height: 30%; */
+    bottom: 200px;
+    background-color:#fff;
+    padding: 7% 15%;
+    position: relative;
+
+}
+.feature-box{
+    text-align: center;
+    padding: 8%;
+}
+.icon{
+    color: #ef8172;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+#testimonials{
+    background-color: #ef8172;
+    text-align: center;
+    color:antiquewhite;
+}
+.testmonimg{
+    height: 15%;
+    width:  20%;
+    border-radius: 100%;/*to make image round*/
+    margin: 20px;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding: 2% 7% 10%;
+}
+.pi{
+    width: 15%;
+    margin: 0 2%;
+}
+.carousel-item{
+    padding: 5% 15%;
+}
+/* .btn{
+    padding-left: 2%;
+    width: 100%;/*we may use a div around the button wch is <div class="d-grid gap-2"> to get more adaptive
+    and more flexible full length button */
+/* pricing section */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-coloumn{
+    padding: 3% 2%;
+}
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 15% 15%;
+    color: #fff;
+    font-weight: bolder;
+    line-height: 2%;
+}
+#last{
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: xx-large;
+    font-weight: 1000;
+
+}
+
+#footer{
+    padding: 8% 0 3%;
+    text-align: center;
+    background-image: linear-gradient(aliceblue);
+}
+.fo{
+    margin: 10px;
+    padding-bottom: 5px;
+}
+@media (max-width:1028px) {/*media query*/
+    #title{
+        text-align: center;
+        padding-bottom: 200px;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
